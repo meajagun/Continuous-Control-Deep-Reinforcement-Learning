@@ -46,9 +46,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Repository Contents
 This repository contains the files listed below which were successfully used to train the robotic arms.
-1. ***Continuous_Control.ipynb:*** This file contains the starter code from Udacity's Repository and the implementation of the DQN Function used to train the agent.
-2. ***ddpg_agent.py:*** This file contains the DQN Agent class.
-3. ***model.py:*** This file contains defined QNetwork architecture.
+1. ***Continuous_Control.ipynb:*** This file contains the starter code from Udacity's Repository and the implementation of the DDPG Function used to train the agent.
+2. ***ddpg_agent.py:*** This file contains the DDPG Agent class.
+3. ***model.py:*** This file contains defined Actor and Critic architecture.
 4. ***checkpoint_actor.pth:*** This file contains the trained and saved Actor Network weights.
 5. ***checkpoint_critic.pth:*** This file contains the trained and saved Critic Network weights.
 6. ***README.md:*** This file contains the overview of this project and how to understand its contents and implement one of your own.
